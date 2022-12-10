@@ -188,7 +188,10 @@ section {
 }
 
 .content {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 1rem;
 }
 
@@ -200,4 +203,12 @@ section {
 
 .hidden {
   display: none;
+}
+
+.selection {
+  background-color: var(--clr-neutral-400);
+  border-radius: 20px;
+  color: var(--clr-primary-500);
+
+  padding: 0.5rem 2rem 0.3rem 2rem;
 }
